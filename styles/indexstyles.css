@@ -2,16 +2,37 @@
   --raisin-black: #1b1e25ff;
   --soft-raisin-black: rgb(59, 65, 80);
   --engineering-orange: #b80c09ff;
-  /* --colore: firebrick; */
   --amber: #ffbd00ff;
+  /* --amber: #ffd319; */
   --mint-cream: #f7fff7ff;
   --air-superiority-blue: #6ca6c1ff;
-  /* rgb(11, 225, 64) */
-
   /* Colores matrix */
   --verdeOscuro: #003b00;
   --verde: #008f11;
   --verdeClaro: #00ff41;
+  /* --verdeClaro: #ff2975; */
+
+  /* Colores synth escogidos */
+  --primario: #ffd319;
+  --secundario: #ff901f;
+  --terciario: #f222ff;
+  --cuaternario: #ff2975;
+  --quintinario: #8c1eff;
+  --extra1: #5268c1;
+  --extra2: #7592e5;
+
+  /* Colores Synth oscuros */
+  --osPurpura: #451c4f;
+  --osRosa: #d44e79;
+  --osNaranja: #dc8833;
+  --osAzul: #5268c1;
+  --osCeleste: #7592e5;
+  /* Mas synth claros */
+  --claAmarillo: #ffd319;
+  --claNaranja: #ff901f;
+  --claRosaB2: #f222ff;
+  --claRosaBarbie: #ff2975;
+  --claPurpura2: #8c1eff;
 }
 
 *,
@@ -27,21 +48,19 @@
 body {
   background-color: var(--mint-cream);
   background-color: var(--raisin-black);
-  /* background: linear-gradient(var(--mint-cream), var(--raisin-black)); */
-  /* background: linear-gradient(
-    to right,
-    #000,
-    #111,
-    #222,
-    #333,
-    #444,
-    #555,
-    #666,
-    #777,
-    #888,
-    #999,
-    #fff
-  ); */
+  background: linear-gradient(
+    160deg,
+    var(--cuaternario) 18%,
+    var(--secundario) 50%,
+    var(--quintinario) 100%
+  );
+  /* font-family: "Atomic Age"; */
+  /* font-family: "Lalezar", sans-serif; */
+  /* font-family: "Monoton", sans-serif; */
+  /* font-family: "Press Start 2P"; */
+  /* font-family: "Audiowide", sans-serif; */
+  /* font-family: "Boogaloo", sans-serif; */
+  font-family: "Michroma", sans-serif;
 }
 
 h1 {
@@ -50,8 +69,6 @@ h1 {
 
 .nave {
   width: 100%;
-  /* position: fixed; */
-  /* top: 0; */
 }
 
 .nave ul {
@@ -60,7 +77,7 @@ h1 {
 }
 
 .nave a {
-  color: var(--amber);
+  color: var(--primario);
 }
 
 .nave div {
@@ -75,7 +92,7 @@ h1 {
 
 .nave div:hover {
   color: var(--raisin-black);
-  background-color: var(--amber);
+  background-color: var(--primario);
 }
 
 .caja-prin {
@@ -83,13 +100,28 @@ h1 {
 }
 
 .hero {
-  width: 100%;
+  /* width: 100%;
   height: 40rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-image: url("../Logos/DD3.PNG");
+  background-image: url("../Logos/Logotipo_Daniel/Logotipo_daniel-recortado.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.hero {
+  width: 10rem;
+  height: 10rem;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin: auto;
+  border: solid red 2px;
+  background-image: url("../Logos/Logotipo_Daniel/Logo\ retocando.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* background: linear-gradient( to bottom right, var(--air-superiority-blue), var(--raisin-black), var(--engineering-orange)); */
@@ -98,7 +130,7 @@ h1 {
 
 .desc {
   margin: 1rem 0rem;
-  /* border: solid var(--amber) 2px; */
+  /* border: solid var(--primario) 2px; */
 }
 
 .descripcion {
@@ -116,10 +148,10 @@ h1 {
         var(--soft-raisin-black)
       )
       padding-box,
-    linear-gradient(to right, var(--amber), var(--verdeClaro)) border-box;
+    linear-gradient(to right, var(--terciario), var(--cuaternario)) border-box;
   border-radius: 1rem;
   border: 2px solid transparent;
-  background-color: var(--soft-raisin-black);
+  /* background-color: var(--soft-raisin-black); */
 }
 
 .skills {
@@ -127,17 +159,35 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        -40deg,
+        var(--cuaternario) 25%,
+        var(--terciario) 50%,
+        var(--secundario) 75%,
+        var(--primario) 100%
+      )
+      border-box;
+  /*  */
+
+  /* background: linear-gradient(-40deg, #4378bf 18%,#3689ce 48%,#428fd0 59%,#8fb3da 100%); */
+
+  /*  */
+
+  border-radius: 1rem;
+  border: 2px solid transparent;
 }
 
 .skills h2 {
   /* border: red solid 1px; */
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .skillsg1 {
   /* border: solid 1px firebrick; */
-  color: var(--amber);
+  color: var(--primario);
   width: 45%;
 }
 .skillsg2 {
@@ -148,30 +198,55 @@ h1 {
 .skill-tit {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  min-height: 5rem;
+  margin: 2rem 0rem;
+  border: solid red 2px;
   /* height: 4rem; */
   /* border: red solid 1px; */
 }
 
 .skill-normal {
-  color: var(--amber);
+  color: var(--primario);
 }
 
-.skill-proceso {
-  color: var(--raisin-black);
-}
-
-h2 {
-  /* border: var(--amber) solid 1px; */
+.skill-proceso,
+#punto1,
+#punto2,
+#punto3 {
+  margin: auto 0.5rem;
+  color: var(--cuaternario);
+  font-family: "Press Start 2P";
 }
 
 .skillsg1 .skill {
-  border-top: var(--amber) 1px solid;
-  border-bottom: var(--amber) 1px solid;
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 2px solid transparent;
+  border-left: none;
+  border-right: none;
 }
 .skillsg2 .skill {
-  border-top: var(--verdeClaro) 1px solid;
-  border-bottom: var(--verdeClaro) 1px solid;
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--terciario),
+        var(--cuaternario),
+        var(--terciario)
+      )
+      border-box;
+  border: 2px solid transparent;
+  border-left: none;
+  border-right: none;
 }
 
 .skill {
@@ -180,18 +255,18 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  margin-top: 1rem;
+  margin: 1rem 0rem;
   padding: 0.5rem 0rem;
 
-  /* border-top: var(--amber) 1px solid; */
-  /* border-bottom: var(--amber) 1px solid; */
+  /* border-top: var(--primario) 1px solid; */
+  /* border-bottom: var(--primario) 1px solid; */
   /* border-bottom: fuchsia 1px solid; */
   /* border: fuchsia 1px solid; */
 }
 
 .skill h2 {
   width: 10rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
   vertical-align: middle;
   color: var(--mint-cream);
