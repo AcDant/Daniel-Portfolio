@@ -1,5 +1,6 @@
 :root {
   --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
   --engineering-orange: #b80c09ff;
   /* --colore: firebrick; */
   --amber: #ffbd00ff;
@@ -65,6 +66,7 @@ h1 {
 .nave div {
   height: 3rem;
   width: 19vw;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,14 +96,30 @@ h1 {
   /* border: rgb(37, 27, 168) solid 2px; */
 }
 
-.desc p {
+.desc {
+  margin: 1rem 0rem;
+  /* border: solid var(--amber) 2px; */
+}
+
+.descripcion {
   margin: auto;
+  padding: 1rem 2rem;
   font-size: 2rem;
   text-justify: auto;
   width: 70%;
   line-height: 4rem;
+  /* border-radius: 2rem; */
   color: var(--mint-cream);
-  /* border: rgb(0, 21, 255) solid 1px; */
+
+  background: linear-gradient(
+        var(--soft-raisin-black),
+        var(--soft-raisin-black)
+      )
+      padding-box,
+    linear-gradient(to right, var(--amber), var(--verdeClaro)) border-box;
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  background-color: var(--soft-raisin-black);
 }
 
 .skills {
@@ -118,12 +136,12 @@ h1 {
 }
 
 .skillsg1 {
-  border: solid 1px firebrick;
+  /* border: solid 1px firebrick; */
   color: var(--amber);
   width: 45%;
 }
 .skillsg2 {
-  border: solid 1px firebrick;
+  /* border: solid 1px firebrick; */
   width: 45%;
 }
 
@@ -176,6 +194,7 @@ h2 {
   font-size: 2rem;
   text-align: center;
   vertical-align: middle;
+  color: var(--mint-cream);
 }
 
 .logo {
@@ -202,7 +221,8 @@ h2 {
 }
 
 .react {
-  background-image: url("../Logos/react.jpg");
+  /* background-image: url("../Logos/react.jpg"); */
+  background-image: url("../Logos/react-removebg-preview.png");
 }
 
 .logo-pareja {
@@ -228,4 +248,12 @@ h2 {
 
 .github {
   background-image: url("../Logos/github\ solo.png");
+}
+
+.java {
+  background-image: url("../Logos/java.png");
+}
+
+.mysql {
+  background-image: url("../Logos/MySQL_Dolphin.jpg");
 }
