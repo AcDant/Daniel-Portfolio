@@ -20,6 +20,8 @@
   --quintinario: #8c1eff;
   --extra1: #5268c1;
   --extra2: #7592e5;
+  --rosaLogo: #e010be;
+  --amarilloLogo: #f8e71c;
 
   /* Colores Synth oscuros */
   --osPurpura: #451c4f;
@@ -100,28 +102,13 @@ h1 {
 }
 
 .hero {
-  /* width: 100%;
-  height: 40rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url("../Logos/DD3.PNG");
-  background-image: url("../Logos/Logotipo_Daniel/Logotipo_daniel-recortado.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-.hero {
   width: 10rem;
   height: 10rem;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
+
   margin: auto;
   border: solid red 2px;
-  background-image: url("../Logos/Logotipo_Daniel/Logo\ retocando.png");
+  background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
+  /* background-image: url("../Logos/Logotipo_Daniel/Logo\ retocando.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   /* background: linear-gradient( to bottom right, var(--air-superiority-blue), var(--raisin-black), var(--engineering-orange)); */
@@ -159,7 +146,7 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+  /* background: linear-gradient(var(--raisin-black), var(--raisin-black))
       padding-box,
     linear-gradient(
         -40deg,
@@ -168,11 +155,23 @@ h1 {
         var(--secundario) 75%,
         var(--primario) 100%
       )
-      border-box;
+      border-box; */
   /*  */
+  /* background: linear-gradient(
+    90deg,
+    var(--quintinario) 18%,
+    var(--secundario) 70%
+    ,var(--quintinario) 100%
+  ); */
+  /* background: linear-gradient(
+    -40deg,
+    var(--extra1) 18%,
+    var(--extra2) 48%,
+    var(--extra1) 59%,
+    var(--extra1) 100%
+  ); */
 
-  /* background: linear-gradient(-40deg, #4378bf 18%,#3689ce 48%,#428fd0 59%,#8fb3da 100%); */
-
+  background-color: var(--raisin-black);
   /*  */
 
   border-radius: 1rem;
@@ -202,7 +201,7 @@ h1 {
   text-align: center;
   min-height: 5rem;
   margin: 2rem 0rem;
-  border: solid red 2px;
+  /* border: solid red 2px; */
   /* height: 4rem; */
   /* border: red solid 1px; */
 }
