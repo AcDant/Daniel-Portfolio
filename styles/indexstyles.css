@@ -70,20 +70,36 @@ h1 {
 }
 
 .nave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
+  background-color: var(--raisin-black);
+  /* border: solid 2px green; */
+}
+
+.logo-dani {
+  background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4rem;
+  width: 4rem;
+  margin-left: 1rem;
+  /* border: solid 2px rgb(155, 239, 9); */
 }
 
 .nave ul {
   display: flex;
   justify-content: space-between;
+  /* border: solid 2px rgb(155, 239, 9); */
 }
 
 .nave a {
   color: var(--primario);
 }
 
-.nave div {
-  height: 3rem;
+.nave a div {
+  height: 4rem;
   width: 19vw;
   font-size: 1.3rem;
   display: flex;
