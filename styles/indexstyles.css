@@ -3,15 +3,12 @@
   --soft-raisin-black: rgb(59, 65, 80);
   --engineering-orange: #b80c09ff;
   --amber: #ffbd00ff;
-  /* --amber: #ffd319; */
   --mint-cream: #f7fff7ff;
   --air-superiority-blue: #6ca6c1ff;
   /* Colores matrix */
   --verdeOscuro: #003b00;
   --verde: #008f11;
   --verdeClaro: #00ff41;
-  /* --verdeClaro: #ff2975; */
-
   /* Colores synth escogidos */
   --primario: #ffd319;
   --secundario: #ff901f;
@@ -22,19 +19,6 @@
   --extra2: #7592e5;
   --rosaLogo: #e010be;
   --amarilloLogo: #f8e71c;
-
-  /* Colores Synth oscuros */
-  --osPurpura: #451c4f;
-  --osRosa: #d44e79;
-  --osNaranja: #dc8833;
-  --osAzul: #5268c1;
-  --osCeleste: #7592e5;
-  /* Mas synth claros */
-  --claAmarillo: #ffd319;
-  --claNaranja: #ff901f;
-  --claRosaB2: #f222ff;
-  --claRosaBarbie: #ff2975;
-  --claPurpura2: #8c1eff;
 }
 
 *,
@@ -48,14 +32,6 @@
 }
 
 body {
-  background-color: var(--mint-cream);
-  background-color: var(--raisin-black);
-  background: linear-gradient(
-    160deg,
-    var(--cuaternario) 18%,
-    var(--secundario) 50%,
-    var(--quintinario) 100%
-  );
   /* font-family: "Atomic Age"; */
   /* font-family: "Lalezar", sans-serif; */
   /* font-family: "Monoton", sans-serif; */
@@ -63,10 +39,7 @@ body {
   /* font-family: "Audiowide", sans-serif; */
   /* font-family: "Boogaloo", sans-serif; */
   font-family: "Michroma", sans-serif;
-}
-
-h1 {
-  font-size: 2rem;
+  background-color: var(--raisin-black);
 }
 
 .nave {
@@ -75,23 +48,13 @@ h1 {
   align-items: center;
   width: 100%;
   background-color: var(--raisin-black);
-  /* border: solid 2px green; */
-}
-
-.logo-dani {
-  background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 4rem;
-  width: 4rem;
-  margin-left: 1rem;
-  /* border: solid 2px rgb(155, 239, 9); */
+  border-bottom: solid 2px var(--primario);
 }
 
 .nave ul {
   display: flex;
   justify-content: space-between;
-  /* border: solid 2px rgb(155, 239, 9); */
+  width: 100%;
 }
 
 .nave a {
@@ -113,8 +76,31 @@ h1 {
   background-color: var(--primario);
 }
 
+.contenido {
+  background-color: var(--mint-cream);
+  background-color: var(--raisin-black);
+  /* background: linear-gradient(
+    160deg,
+    var(--cuaternario) 18%,
+    var(--secundario) 50%,
+    var(--quintinario) 100%
+  ); */
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 4px solid transparent;
+  margin: 0rem 1rem;
+}
+
 .caja-prin {
-  margin: 1rem;
+  padding: 1rem;
+  /* border: red solid 4px; */
 }
 
 .hero {
@@ -132,7 +118,7 @@ h1 {
 }
 
 .desc {
-  margin: 1rem 0rem;
+  border-radius: 50%;
   /* border: solid var(--primario) 2px; */
 }
 
