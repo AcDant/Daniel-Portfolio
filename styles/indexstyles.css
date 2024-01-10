@@ -147,6 +147,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  justify-content: center;
   width: 100%;
   /* background: linear-gradient(var(--raisin-black), var(--raisin-black))
       padding-box,
@@ -255,7 +256,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
+  width: 90%;
   margin: 1rem 0rem;
   padding: 0.5rem 0rem;
 
