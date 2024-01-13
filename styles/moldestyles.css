@@ -1,0 +1,73 @@
+:root {
+    /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  /* --engineering-orange: #b80c09ff; */
+  /* --amber: #ffbd00ff; */
+  --mint-cream: #f7fff7ff;
+  /* --air-superiority-blue: #6ca6c1ff; */
+  /* Colores matrix */
+  --verdeOscuro: #003b00;
+  --verde: #008f11;
+  --verdeClaro: #00ff41;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  /* font-family: "Atomic Age"; */
+  /* font-family: "Lalezar", sans-serif; */
+  /* font-family: "Monoton", sans-serif; */
+  /* font-family: "Press Start 2P"; */
+  /* font-family: "Audiowide", sans-serif; */
+  /* font-family: "Boogaloo", sans-serif; */
+  font-family: "Michroma", sans-serif;
+  background-color: var(--raisin-black);
+}
+
+.nave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nave ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nave a div {
+  height: 4rem;
+  width: 19vw;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido {
+  margin: 0rem 1rem;
+}
+
+.caja-prin {
+  padding: 1rem;
+}
+
+.hero {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem auto;
+  background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
