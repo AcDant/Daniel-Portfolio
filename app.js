@@ -1,30 +1,6 @@
-// var swiper = new Swiper(".mySwiper", {
-//     direction: "vertical",
-//     slidesPerView: 1,
-//     spaceBetween: 30,
-//     mousewheel: true,
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//   });
-
-// const skills = document.querySelector(".skills");
-// skills.style.flex;
-// skills.style.justifyContent = 'space-around'
-
-let primario = "#ffd319";
-let secundario = "#ff901f";
-let terciario = "#f222ff";
+// Función de LOADING . . .
 let cuaternario = "#ff2975";
-let quintinario = "#8c1eff";
-let extra1 = "#5268c1";
-let extra2 = "#7592e5";
-
 let raisinBlack = "#1b1e25ff";
-let verdeOscuro = "#003b00";
-let verde = "#008f11";
-let verdeClaro = "#00ff41";
 
 const process = document.querySelector("#process");
 const punto1 = document.querySelector("#punto1");
