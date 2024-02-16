@@ -109,10 +109,15 @@
   text-align: center;
   min-height: 5rem;
   margin: 2rem 0rem;
+  border: solid red 2px;
 }
 
 .skill-normal {
   color: var(--primario);
+}
+
+.skill-proceso {
+  width: 50%;
 }
 
 .skill-proceso,
@@ -226,4 +231,38 @@
 
 .mysql {
   background-image: url("../Logos/MySQL_Dolphin.jpg");
+}
+
+/* Media query para los puntos */
+@media (max-width: 1230px) {
+  #punto1,
+  #punto2,
+  #punto3 {
+    display: none;
+  }
+}
+
+/*  */
+@media (max-width: 725px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    /* width: 90%; */
+    /* border: solid red 2px; */
+  }
+  #punto1,
+  #punto2,
+  #punto3 {
+    display: inline;
+  }
+  .skills .skill{
+    width: 100%;
+    /* border: solid blue 2px; */
+  }
+  .skillsg1{
+    width: 100%;
+  }
+  .skillsg2{
+    width: 100%;
+  }
 }
