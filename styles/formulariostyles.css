@@ -1,0 +1,79 @@
+:root {
+  /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  --mint-cream: #f7fff7ff;
+  /* Colores synth escogidos */
+  --primario: #ffd319;
+  --secundario: #ff901f;
+  --terciario: #f222ff;
+  --cuaternario: #ff2975;
+  --quintinario: #8c1eff;
+  --extra1: #5268c1;
+  --extra2: #7592e5;
+  --rosaLogo: #e010be;
+  --amarilloLogo: #f8e71c;
+}
+
+.nave {
+  background-color: var(--raisin-black);
+  border-bottom: solid 2px var(--primario);
+}
+
+.nave a {
+  color: var(--primario);
+}
+
+.nave a div {
+  /* height: 4rem; */
+  /* width: 19vw; */
+  /* font-size: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--raisin-black);
+}
+
+.nave div:hover {
+  color: var(--raisin-black);
+  background-color: var(--primario);
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    border: solid red;
+}
+
+.campos1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.empresa, .tipo, .imagen-corpo, .web-actu, .text-presu{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    border: solid red 2px;
+}
+
+.tipo{
+    align-items: center;
+}
+
+.tipo h4{
+    width: 90%;
+}
+
+.imagen-corpo-in{
+    display: flex;
+    justify-content: center;   
+}
+
+.imagen-corpo-in label{
+    border: solid red 2px;
+    width: 2.4rem;
+    margin-left: 0.5rem;
+}
