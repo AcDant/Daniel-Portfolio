@@ -25,9 +25,9 @@
 }
 
 .nave a div {
-  height: 4rem;
-  width: 19vw;
-  font-size: 1.3rem;
+  /* height: 4rem; */
+  /* width: 19vw; */
+  /* font-size: 1rem; */
   display: flex;
   justify-content: center;
   align-items: center;

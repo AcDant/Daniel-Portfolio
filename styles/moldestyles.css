@@ -39,14 +39,19 @@ body {
 
 .nave ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.nave li{
   width: 100%;
 }
 
 .nave a div {
   height: 4rem;
-  width: 19vw;
-  font-size: 1.3rem;
+  /* width: 19vw; */
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -51,7 +51,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2rem;
   row-gap: 2rem;
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 0.5rem;
   background: linear-gradient(var(--raisin-black), var(--raisin-black))
       padding-box,
@@ -95,7 +95,7 @@
   justify-content: center;
   align-items: end;
   height: 13rem;
-  width: 100%;
+  /* width: 100%; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -116,4 +116,12 @@
 }
 .freelancer {
   background-image: url("../images/freelancer.PNG");
+}
+
+/* Movil */
+@media (max-width: 725px) {
+  .lista-proyectos {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+  }
 }
