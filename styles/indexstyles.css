@@ -62,7 +62,7 @@
 .descripcion {
   margin: auto;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-justify: auto;
   width: 70%;
   line-height: 4rem;
@@ -91,7 +91,7 @@
 
 .skills h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .skillsg1 {
@@ -128,6 +128,13 @@
   color: var(--cuaternario);
   font-family: "Press Start 2P";
 }
+
+/* .skill-proceso,
+#punto1,
+#punto2,
+#punto3{
+  border: solid red 2px;
+} */
 
 .skillsg1 .skill {
   background: linear-gradient(var(--raisin-black), var(--raisin-black))
@@ -170,15 +177,15 @@
 
 .skill h2 {
   width: 10rem;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-align: center;
   vertical-align: middle;
   color: var(--mint-cream);
 }
 
 .logo {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -202,8 +209,8 @@
 }
 
 .logo-pareja {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -233,28 +240,37 @@
   background-image: url("../Logos/MySQL_Dolphin.jpg");
 }
 
-/* Media query para los puntos */
+/* Media query para que los puntos no se superpongan 
+   antes de llegar al movil display*/
 @media (max-width: 1230px) {
-  #punto1,
+  .skillsg2 .skill-tit{
+    justify-content: left;
+  }
+  /* #punto1,
   #punto2,
   #punto3 {
     display: none;
-  }
+  } */
 }
 
-/*  */
+/* Movil */
 @media (max-width: 725px) {
+
+  .skillsg2 .skill-tit{
+    justify-content: center;
+  }
+
   .skills {
     flex-direction: column;
     align-items: center;
     /* width: 90%; */
     /* border: solid red 2px; */
   }
-  #punto1,
+  /* #punto1,
   #punto2,
   #punto3 {
     display: inline;
-  }
+  } */
   .skills .skill{
     width: 100%;
     /* border: solid blue 2px; */
