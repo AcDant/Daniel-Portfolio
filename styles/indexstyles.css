@@ -39,6 +39,10 @@
   background-color: var(--primario);
 }
 
+.menu-icon{
+  background-image: url("../Logos/hamburguesa_main.jpg");
+}
+
 .contenido {
   background-color: var(--mint-cream);
   background-color: var(--raisin-black);

@@ -37,6 +37,7 @@ body {
   width: 100%;
 }
 
+
 .nave ul {
   display: flex;
   /* justify-content: space-between; */
@@ -72,4 +73,23 @@ body {
   background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+
+@media (max-width:725px){
+
+  .nave{
+    justify-content: end;
+  }
+  .menu-icon{
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #nave-list{
+    display: none;
+  }
+
 }
