@@ -58,6 +58,10 @@ body {
   align-items: center;
 }
 
+.menu-ham{
+  display: none;
+}
+
 .contenido {
   margin: 0rem 1rem;
 }
@@ -88,8 +92,16 @@ body {
     width: 4rem;
   }
 
-  #nave-list{
+  #nave-list-pc{
     display: none;
   }
 
+  .menu-ham{
+    /* display: flex; */
+    /* display: block; */
+    /* flex-direction: column; */
+    /* width: 100%; */
+    /* height: 4rem; */
+    /* border: solid red 2px; */
+  }
 }

@@ -285,4 +285,12 @@
   .skillsg2{
     width: 100%;
   }
+
+  .menu-ham{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 4rem; */
+    border: solid red 2px;
+  }
 }

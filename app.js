@@ -38,13 +38,17 @@ tresPuntos();
 
 // Icono hamburguesa
  const iconoH = document.getElementById("icono-h"); 
- const naveList = document.getElementById("nave-list");
+ const menuHam = document.getElementById("menu-ham");
  let showMenu = false;
 
  iconoH.addEventListener("click", iconoMenu);
 
  function iconoMenu(){
   if(showMenu === false){
-    
+    menuHam.style.display = "block"
+    showMenu = true;
+  } else{
+    menuHam.style.display = "none";
+    showMenu = false;
   }
  }
