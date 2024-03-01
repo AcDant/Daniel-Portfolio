@@ -45,6 +45,10 @@ body {
   width: 100%;
 }
 
+/* #nave-list-pc{
+  display: flex;
+} */
+
 .nave li{
   width: 100%;
 }
