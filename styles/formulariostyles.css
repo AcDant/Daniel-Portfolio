@@ -179,6 +179,15 @@ input {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
+.boton-enviar{
+  color: var(--raisin-black);
+  background-color: var(--amarilloLogo);
+  padding: 1rem;
+  border-style: none;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 725px) {
   .menu-ham{
     display: flex;

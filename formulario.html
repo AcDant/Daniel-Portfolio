@@ -87,65 +87,60 @@
       <section id="hero" class="hero"></section>
       <div class="formulario">
         <form action="" class="formu-presu">
-
-
           <!-- <fieldset class="field"> -->
 
+          <!-- <legend>Presupuesto</legend> -->
+          <h2>Presupuesto</h2>
+          <div class="campos1">
+            <div class="empresa">
+              <label for="empresa" id="emp-lab">Empresa</label>
+              <input type="text" id="empresa" />
+            </div>
+            <div class="tipo">
+              <h4 id="tipologia">Tipología</h4>
+              <div>
+                <input type="checkbox" name="front" id="front" />
+                <label for="front" id="frontLab">FrontEnd</label>
+              </div>
+              <div>
+                <input type="checkbox" name="back" id="back" />
+                <label for="back" id="backLab">BackEnd</label>
+              </div>
+            </div>
+          </div>
 
-            <!-- <legend>Presupuesto</legend> -->
-            <h2>Presupuesto</h2>
-            <div class="campos1">
-              <div class="empresa">
-                <label for="empresa" id="emp-lab">Empresa</label>
-                <input type="text" id="empresa" />
-              </div>
-              <div class="tipo">
-                <h4 id="tipologia">Tipología</h4>
-                <div>
-                  <input type="checkbox" name="front" id="front" />
-                  <label for="front" id="frontLab">FrontEnd</label>
-                </div>
-                <div>
-                  <input type="checkbox" name="back" id="back" />
-                  <label for="back" id="backLab">BackEnd</label>
-                </div>
-              </div>
+          <div class="imagen-corpo">
+            <h4 id="desea">Desea imagen corporativa</h4>
+            <div class="imagen-corpo-in">
+              <input type="radio" name="tipo" id="yes" />
+              <label for="yes" id="yes-lab">Si</label>
             </div>
-
-            <div class="imagen-corpo">
-              <h4 id="desea">Desea imagen corporativa</h4>
-              <div class="imagen-corpo-in">
-                <input type="radio" name="tipo" id="yes" />
-                <label for="yes" id="yes-lab">Si</label>
-              </div>
-              <div class="imagen-corpo-in">
-                <input type="radio" name="tipo" id="no" />
-                <label for="no" id="yes-lab">No</label>
-              </div>
+            <div class="imagen-corpo-in">
+              <input type="radio" name="tipo" id="no" />
+              <label for="no" id="yes-lab">No</label>
             </div>
-            <div class="web-actu">
-              <label for="web" id="web-lab">Web actual</label>
-              <input type="text" name="web" id="web" />
-            </div>
-            <div class="text-presu">
-              <label for="descripcion">Descripción</label>
-              <textarea
-                name="descripcion"
-                id="descripcion"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-
+          </div>
+          <div class="web-actu">
+            <label for="web" id="web-lab">Web actual</label>
+            <input type="text" name="web" id="web" />
+          </div>
+          <div class="text-presu">
+            <label for="descripcion">Descripción</label>
+            <textarea
+              name="descripcion"
+              id="descripcion"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
 
           <!-- </fieldset> -->
 
-          <input type="submit" value="Enviar" class="boton boton--primario">
-
+          <input type="submit" value="Enviar" class="boton-enviar" />
         </form>
       </div>
     </div>
-<script src="./hamburguesa.js"></script>
-<script src="./formulario.js"></script>
+    <script src="./hamburguesa.js"></script>
+    <script src="./formulario.js"></script>
   </body>
 </html>
