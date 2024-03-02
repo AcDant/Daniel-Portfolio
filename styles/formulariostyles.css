@@ -51,21 +51,35 @@
 }
 
 .formulario {
-  width: 60%;
+  /* width: 60%; */
   border: solid var(--terciario) 3px;
   border-radius: 1rem;
+
+/*  */
+/* display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+border: solid var(--quintinario) 3px; */
+/* border: none; */
+
 }
+
+.formu-presu{
+  display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+/* border: solid var(--quintinario) 3px; */
+}
+
 
 .field {
   /* width: 100%; */
-
-
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-
-  
   border: solid var(--quintinario) 3px;
   border: none;
 }
@@ -91,7 +105,7 @@
   display: flex;
   justify-content: space-around;
   width: 90%;
-  border: solid 2px fuchsia;
+  /* border: solid 2px fuchsia; */
   border:solid 2px var(--secundario);
 }
 
@@ -172,5 +186,9 @@ input {
     /* width: 100%; */
     /* height: 4rem; */
     /* border: solid red 2px; */
+  }
+
+  .campos1 {
+flex-direction: column;
   }
 }
