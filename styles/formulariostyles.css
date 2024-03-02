@@ -130,7 +130,7 @@ input {
   display: flex;
   margin: 0.5rem 0rem 0.5rem 0rem;
   /* width: 10rem; */
-  border: red solid 2px;
+  /* border: red solid 2px; */
 }
 
 .imagen-corpo {
