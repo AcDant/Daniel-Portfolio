@@ -29,6 +29,10 @@
   background-color: var(--primario);
 }
 
+.menu-icon{
+  background-image: url("../Logos/hamburguesa_main.jpg");
+}
+
 .contenido {
   background-color: var(--raisin-black);
   background: linear-gradient(var(--raisin-black), var(--raisin-black))
@@ -123,5 +127,12 @@
   .lista-proyectos {
     /* display: grid; */
     grid-template-columns: 1fr;
+  }
+  .menu-ham{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 4rem; */
+    /* border: solid red 2px; */
   }
 }
