@@ -66,6 +66,10 @@ body {
   display: none;
 }
 
+#nave-list-mv{
+  display: none;   
+}
+
 .contenido {
   margin: 0rem 1rem;
 }
@@ -103,9 +107,12 @@ body {
   .menu-ham{
     /* display: flex; */
     /* display: block; */
-    /* flex-direction: column; */
-    /* width: 100%; */
-    /* height: 4rem; */
+    flex-direction: column;
+    width: 100%;
+    height: 4rem;
     /* border: solid red 2px; */
+  }
+  #nave-list-mv{
+    display: block;   
   }
 }

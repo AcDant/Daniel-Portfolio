@@ -38,19 +38,22 @@ tresPuntos();
 
 // Icono hamburguesa
  const iconoH = document.getElementById("icono-h"); 
- const naveg = document.getElementById("nave-list-pc");
+ const menuHam = document.getElementById("menu-ham");
+//  const listHam = document.getElementById("nave-list-mv");
  let showMenu = false;
 
  iconoH.addEventListener("click", iconoMenu);
 
  function iconoMenu(){
   if(showMenu === false){
-    naveg.style.display = "flex"
-    naveg.style.flexDirection = "column"
+    menuHam.style.display = "flex"
+    menuHam.style.flexDirection = "column"
+    // listHam.style.display = "block"
     showMenu = true;
   } else{
-    naveg.style.display = "none";
-    naveg.style.flexDirection = "row"
+    menuHam.style.display = "none";
+    menuHam.style.flexDirection = "row"
+    // listHam.style.display = "none"
     showMenu = false;
   }
  }
