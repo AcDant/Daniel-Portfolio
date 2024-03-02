@@ -81,7 +81,7 @@ color: white;
   align-items: center;
   color: white;
   border: solid var(--quintinario) 3px;
-  border: none;
+  /* border: none; */
 }
 
 .field h2 {
@@ -98,19 +98,17 @@ color: white;
   margin: 1rem;
   width: 90%;
   /* width: 40rem; */
-  border: solid red 2px;
   border:solid 2px var(--secundario);
+  border-radius: 1rem;
 }
 .campos1 {
   display: flex;
   justify-content: space-around;
   width: 90%;
   /* border: solid 2px fuchsia; */
-  border:solid 2px var(--secundario);
-}
-
-.campos1 {
-    border: solid 2px var(--cuaternario);
+  /* border:solid 2px var(--secundario); */
+  border: solid 2px var(--cuaternario);
+  border-radius: 1rem;
 }
 
 .empresa label,
